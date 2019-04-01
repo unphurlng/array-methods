@@ -28,6 +28,7 @@
         "error",
         "always"
       ],
+      "no-sparse-arrays": "off",
       "space-in-parens": [
         "error"
       ],
