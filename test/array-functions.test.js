@@ -1,7 +1,7 @@
 const { mapArray } = require('../lib/array-functions');
 
 describe('array functions', () => {
-  describe('map array function', () => {
+  describe('mapArray function', () => {
     it('takes array, copies original array with callback value', () => {
       const mock = jest.fn(num => num);
       expect(mapArray([1, 2, 3, 4, 5], mock)).toEqual([1, 2, 3, 4, 5]);
@@ -13,6 +13,16 @@ describe('array functions', () => {
     });
   });
 
+  // describe('filterArray function', () => {
+  //   it('return new array with all items truthy', () => {
+  //     const mock = jest.fn(num => num);
+  //     expect(filterArray([1, 2, 3], mock)).toEqual([1, 2, 3]);
+  //   });
 
+  //   it('return new array with all items truthy', () => {
+  //     const mock = jest.fn(num => num);
+  //     expect(filterArray([1, 2,, 3], mock)).toEqual([1, 2, 3]);
+  //   });
+  // });
 });
 
