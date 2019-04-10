@@ -13,14 +13,5 @@ describe('array functions', () => {
     });
   });
 
-  // describe('filterArray function', () => {
-  //   it('return new array with all items truthy', () => {
-  //     const mock = jest.fn(num => num);
-  //     expect(filterArray([1, 2, 3], mock)).toEqual([1, 2, 3]);
-  //   });
-
-  //   it('filters evens', () => {
-  //     expect(filterArray([1, 2, 3, 4], n => n % 2 === 0)).toEqual([2, 4]);
-  //   });
-  // });
+ 
 });
